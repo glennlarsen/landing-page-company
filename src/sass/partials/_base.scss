@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: $font-body;
+  color: $color-text;
+  line-height: 1.43;
+}
+
+.wrapper {
+  flex: 1 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-primary;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.under-line {
+  height: 4px;
+  width: 73px;
+  display: block;
+  margin: 8px auto 0;
+  background-color: $color-primary;
+}
+
+.pattern-background {
+  background-color: $color-background;
+  overflow: hidden;
+  display: flex;
+
+  .pattern {
+    pointer-events: none;
+    position: absolute;
+    top: -180px;
+    opacity: 0.7;
+    width: auto;
+  }
+}

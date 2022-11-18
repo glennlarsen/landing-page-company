@@ -1,0 +1,42 @@
+.about-container {
+  max-width: 1200px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 200px;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    text-align: center;
+  }
+
+  .about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-top: 64px;
+
+    @media screen and (min-width: 880px) {
+      flex-direction: row;
+    }
+
+    & > * {
+      flex: 1;
+    }
+
+    p {
+      font-size: 1.125rem;
+      margin: 0;
+    }
+
+    .about-text--middle {
+      margin: 10px 0;
+    }
+  }
+}
