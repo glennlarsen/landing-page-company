@@ -21,6 +21,7 @@
     flex-direction: column;
     gap: 3em;
     margin-top: 64px;
+    z-index: 1;
 
     @media screen and (min-width: 880px) {
       flex-direction: row;
