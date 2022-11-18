@@ -1,6 +1,6 @@
 # Company Landing Page
 
-![screenshot](assets/screenshot.png)
+![screenshot](src/assets/screenshot.png)
 
 ## Description
 
