@@ -20,12 +20,14 @@ SASS, Material Design and React Burger Menu. The landing page is fully Responsiv
 ### Installing
 
 1. Clone the repo:
-   `git clone https://github.com/glennlarsen/project-exam-2-glennlarsen.git`
+   `git clone https://github.com/glennlarsen/landing-page-company.git`
    Clones the repo to your choosen destination.
 
 2. Install the dependencies:
    `npm install`
    Install's all the required dependencies to run the project.
+
+   Your project should now be good to go!
 
 ### Running
 
@@ -36,7 +38,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### Live Site
 
 The website is deployed on netlify by using `npm run build` and add the build folder to the deploy section on Netlify.
-[Link to live site](https://chic-croquembouche-ac3466.netlify.app/)
+[Link to live site](https://startling-sherbet-bcbe5f.netlify.app/)
 
 ## Contributing
 
